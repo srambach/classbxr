@@ -12,9 +12,9 @@
     background-color: white;
     color: cornflowerblue;
     position: absolute;
-    top: -.5em;
+    top: -1.5ex;
     white-space: nowrap;
-    font-family: sans-serif;
+    font-family: monospace;
   }
   // Get nested elements down to a reasonable level
   div {
@@ -40,8 +40,20 @@
   ul:before {
     content: 'ul.' attr(class);
   }
+  ol:before {
+    content: 'ol.' attr(class);
+  }
   li:before {
     content: 'li.' attr(class);
+  }
+  dl:before {
+    content: 'dl.' attr(class);
+  }
+  dd:before {
+    content: 'dd.' attr(class);
+  }
+  dt:before {
+    content: 'dt.' attr(class);
   }
   h1:before {
     content: 'h1.' attr(class);

@@ -13,9 +13,9 @@
   background-color: white;
   color: cornflowerblue;
   position: absolute;
-  top: -0.5em;
+  top: -1.5ex;
   white-space: nowrap;
-  font-family: sans-serif;
+  font-family: monospace;
 }
 .classbxr div,
 .classbxr * div {
@@ -45,9 +45,25 @@
 .classbxr * ul:before {
   content: 'ul.' attr(class);
 }
+.classbxr ol:before,
+.classbxr * ol:before {
+  content: 'ol.' attr(class);
+}
 .classbxr li:before,
 .classbxr * li:before {
   content: 'li.' attr(class);
+}
+.classbxr dl:before,
+.classbxr * dl:before {
+  content: 'dl.' attr(class);
+}
+.classbxr dd:before,
+.classbxr * dd:before {
+  content: 'dd.' attr(class);
+}
+.classbxr dt:before,
+.classbxr * dt:before {
+  content: 'dt.' attr(class);
 }
 .classbxr h1:before,
 .classbxr * h1:before {

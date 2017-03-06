@@ -1,0 +1,32 @@
+{
+  "name": "classbxr",
+  "version": "1.0.0",
+  "description": "This project adds a box and the class names around elements for easier debugging and visualization of the HTML/CSS structure",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-plumber": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srambach/classbxr.git"
+  },
+  "keywords": [
+    "CSS",
+    "HTML"
+  ],
+  "author": "Sarah Rambach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srambach/classbxr/issues"
+  },
+  "homepage": "https://github.com/srambach/classbxr#readme"
+}
