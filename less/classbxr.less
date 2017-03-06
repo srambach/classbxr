@@ -1,0 +1,64 @@
+//Add .classbxr to any element to turn on annotations for it and its contents
+.classbxr,
+.classbxr * {
+  width: auto !important;
+  border: 1px solid cornflowerblue !important;
+  padding: .5em .25em .25em .25em !important;
+  margin: .5em .25em .25em .25em !important;
+  position: relative;
+  &:before {
+    content: '.' attr(class);
+    font-size: xx-small;
+    background-color: white;
+    color: cornflowerblue;
+    position: absolute;
+    top: -.5em;
+    white-space: nowrap;
+    font-family: sans-serif;
+  }
+  // Get nested elements down to a reasonable level
+  div {
+    border-color: pink !important;
+  }
+  div div {
+    border-color: purple !important;
+  }
+  div div div {
+    border-color: green !important;
+  }
+  div div div div {
+    border-color: orange !important;
+  }
+
+  // Add the element name for common elements
+  div:before {
+    content: 'div.' attr(class);
+  }
+  span:before {
+    content: 'span.' attr(class);
+  }
+  ul:before {
+    content: 'ul.' attr(class);
+  }
+  li:before {
+    content: 'li.' attr(class);
+  }
+  h1:before {
+    content: 'h1.' attr(class);
+  }
+  h2:before {
+    content: 'h2.' attr(class);
+  }
+  h3:before {
+    content: 'h3.' attr(class);
+  }
+  h4:before {
+    content: 'h4.' attr(class);
+  }
+  h5:before {
+    content: 'h5.' attr(class);
+  }
+  h6:before {
+    content: 'h6.' attr(class);
+  }
+}
