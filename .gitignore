@@ -1,0 +1,14 @@
+# Folders to ignore
+node_modules
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
