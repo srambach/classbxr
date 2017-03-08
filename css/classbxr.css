@@ -5,8 +5,8 @@
   padding: .5em .25em .25em .25em !important;
   margin: .5em .25em .25em .25em !important;
   position: relative; }
-  .classbxr[class]:before,
-  .classbxr *[class]:before {
+  .classbxr:before,
+  .classbxr *:before {
     content: "." attr(class);
     font-size: xx-small;
     background-color: white;
@@ -27,48 +27,855 @@
   .classbxr div div div div,
   .classbxr * div div div div {
     border-color: orange !important; }
-  .classbxr div:before,
-  .classbxr * div:before {
-    content: "div." attr(class); }
-  .classbxr span:before,
-  .classbxr * span:before {
-    content: "span." attr(class); }
-  .classbxr ul:before,
-  .classbxr * ul:before {
-    content: "ul." attr(class); }
-  .classbxr ol:before,
-  .classbxr * ol:before {
-    content: "ol." attr(class); }
-  .classbxr li:before,
-  .classbxr * li:before {
-    content: "li." attr(class); }
-  .classbxr dl:before,
-  .classbxr * dl:before {
-    content: "dl." attr(class); }
+  .classbxr a:before,
+  .classbxr * a:before {
+    content: "a"; }
+  .classbxr a[class]:before,
+  .classbxr * a[class]:before {
+    content: "a." attr(class); }
+  .classbxr abbr:before,
+  .classbxr * abbr:before {
+    content: "abbr"; }
+  .classbxr abbr[class]:before,
+  .classbxr * abbr[class]:before {
+    content: "abbr." attr(class); }
+  .classbxr acronym:before,
+  .classbxr * acronym:before {
+    content: "acronym"; }
+  .classbxr acronym[class]:before,
+  .classbxr * acronym[class]:before {
+    content: "acronym." attr(class); }
+  .classbxr address:before,
+  .classbxr * address:before {
+    content: "address"; }
+  .classbxr address[class]:before,
+  .classbxr * address[class]:before {
+    content: "address." attr(class); }
+  .classbxr applet:before,
+  .classbxr * applet:before {
+    content: "applet"; }
+  .classbxr applet[class]:before,
+  .classbxr * applet[class]:before {
+    content: "applet." attr(class); }
+  .classbxr area:before,
+  .classbxr * area:before {
+    content: "area"; }
+  .classbxr area[class]:before,
+  .classbxr * area[class]:before {
+    content: "area." attr(class); }
+  .classbxr article:before,
+  .classbxr * article:before {
+    content: "article"; }
+  .classbxr article[class]:before,
+  .classbxr * article[class]:before {
+    content: "article." attr(class); }
+  .classbxr aside:before,
+  .classbxr * aside:before {
+    content: "aside"; }
+  .classbxr aside[class]:before,
+  .classbxr * aside[class]:before {
+    content: "aside." attr(class); }
+  .classbxr audio:before,
+  .classbxr * audio:before {
+    content: "audio"; }
+  .classbxr audio[class]:before,
+  .classbxr * audio[class]:before {
+    content: "audio." attr(class); }
+  .classbxr b:before,
+  .classbxr * b:before {
+    content: "b"; }
+  .classbxr b[class]:before,
+  .classbxr * b[class]:before {
+    content: "b." attr(class); }
+  .classbxr base:before,
+  .classbxr * base:before {
+    content: "base"; }
+  .classbxr base[class]:before,
+  .classbxr * base[class]:before {
+    content: "base." attr(class); }
+  .classbxr basefont:before,
+  .classbxr * basefont:before {
+    content: "basefont"; }
+  .classbxr basefont[class]:before,
+  .classbxr * basefont[class]:before {
+    content: "basefont." attr(class); }
+  .classbxr bdi:before,
+  .classbxr * bdi:before {
+    content: "bdi"; }
+  .classbxr bdi[class]:before,
+  .classbxr * bdi[class]:before {
+    content: "bdi." attr(class); }
+  .classbxr bdo:before,
+  .classbxr * bdo:before {
+    content: "bdo"; }
+  .classbxr bdo[class]:before,
+  .classbxr * bdo[class]:before {
+    content: "bdo." attr(class); }
+  .classbxr bgsound:before,
+  .classbxr * bgsound:before {
+    content: "bgsound"; }
+  .classbxr bgsound[class]:before,
+  .classbxr * bgsound[class]:before {
+    content: "bgsound." attr(class); }
+  .classbxr big:before,
+  .classbxr * big:before {
+    content: "big"; }
+  .classbxr big[class]:before,
+  .classbxr * big[class]:before {
+    content: "big." attr(class); }
+  .classbxr blink:before,
+  .classbxr * blink:before {
+    content: "blink"; }
+  .classbxr blink[class]:before,
+  .classbxr * blink[class]:before {
+    content: "blink." attr(class); }
+  .classbxr blockquote:before,
+  .classbxr * blockquote:before {
+    content: "blockquote"; }
+  .classbxr blockquote[class]:before,
+  .classbxr * blockquote[class]:before {
+    content: "blockquote." attr(class); }
+  .classbxr body:before,
+  .classbxr * body:before {
+    content: "body"; }
+  .classbxr body[class]:before,
+  .classbxr * body[class]:before {
+    content: "body." attr(class); }
+  .classbxr br:before,
+  .classbxr * br:before {
+    content: "br"; }
+  .classbxr br[class]:before,
+  .classbxr * br[class]:before {
+    content: "br." attr(class); }
+  .classbxr button:before,
+  .classbxr * button:before {
+    content: "button"; }
+  .classbxr button[class]:before,
+  .classbxr * button[class]:before {
+    content: "button." attr(class); }
+  .classbxr canvas:before,
+  .classbxr * canvas:before {
+    content: "canvas"; }
+  .classbxr canvas[class]:before,
+  .classbxr * canvas[class]:before {
+    content: "canvas." attr(class); }
+  .classbxr caption:before,
+  .classbxr * caption:before {
+    content: "caption"; }
+  .classbxr caption[class]:before,
+  .classbxr * caption[class]:before {
+    content: "caption." attr(class); }
+  .classbxr center:before,
+  .classbxr * center:before {
+    content: "center"; }
+  .classbxr center[class]:before,
+  .classbxr * center[class]:before {
+    content: "center." attr(class); }
+  .classbxr cite:before,
+  .classbxr * cite:before {
+    content: "cite"; }
+  .classbxr cite[class]:before,
+  .classbxr * cite[class]:before {
+    content: "cite." attr(class); }
+  .classbxr code:before,
+  .classbxr * code:before {
+    content: "code"; }
+  .classbxr code[class]:before,
+  .classbxr * code[class]:before {
+    content: "code." attr(class); }
+  .classbxr col:before,
+  .classbxr * col:before {
+    content: "col"; }
+  .classbxr col[class]:before,
+  .classbxr * col[class]:before {
+    content: "col." attr(class); }
+  .classbxr colgroup:before,
+  .classbxr * colgroup:before {
+    content: "colgroup"; }
+  .classbxr colgroup[class]:before,
+  .classbxr * colgroup[class]:before {
+    content: "colgroup." attr(class); }
+  .classbxr command:before,
+  .classbxr * command:before {
+    content: "command"; }
+  .classbxr command[class]:before,
+  .classbxr * command[class]:before {
+    content: "command." attr(class); }
+  .classbxr content:before,
+  .classbxr * content:before {
+    content: "content"; }
+  .classbxr content[class]:before,
+  .classbxr * content[class]:before {
+    content: "content." attr(class); }
+  .classbxr data:before,
+  .classbxr * data:before {
+    content: "data"; }
+  .classbxr data[class]:before,
+  .classbxr * data[class]:before {
+    content: "data." attr(class); }
+  .classbxr datalist:before,
+  .classbxr * datalist:before {
+    content: "datalist"; }
+  .classbxr datalist[class]:before,
+  .classbxr * datalist[class]:before {
+    content: "datalist." attr(class); }
   .classbxr dd:before,
   .classbxr * dd:before {
+    content: "dd"; }
+  .classbxr dd[class]:before,
+  .classbxr * dd[class]:before {
     content: "dd." attr(class); }
+  .classbxr del:before,
+  .classbxr * del:before {
+    content: "del"; }
+  .classbxr del[class]:before,
+  .classbxr * del[class]:before {
+    content: "del." attr(class); }
+  .classbxr details:before,
+  .classbxr * details:before {
+    content: "details"; }
+  .classbxr details[class]:before,
+  .classbxr * details[class]:before {
+    content: "details." attr(class); }
+  .classbxr dfn:before,
+  .classbxr * dfn:before {
+    content: "dfn"; }
+  .classbxr dfn[class]:before,
+  .classbxr * dfn[class]:before {
+    content: "dfn." attr(class); }
+  .classbxr dialog:before,
+  .classbxr * dialog:before {
+    content: "dialog"; }
+  .classbxr dialog[class]:before,
+  .classbxr * dialog[class]:before {
+    content: "dialog." attr(class); }
+  .classbxr dir:before,
+  .classbxr * dir:before {
+    content: "dir"; }
+  .classbxr dir[class]:before,
+  .classbxr * dir[class]:before {
+    content: "dir." attr(class); }
+  .classbxr div:before,
+  .classbxr * div:before {
+    content: "div"; }
+  .classbxr div[class]:before,
+  .classbxr * div[class]:before {
+    content: "div." attr(class); }
+  .classbxr dl:before,
+  .classbxr * dl:before {
+    content: "dl"; }
+  .classbxr dl[class]:before,
+  .classbxr * dl[class]:before {
+    content: "dl." attr(class); }
   .classbxr dt:before,
   .classbxr * dt:before {
+    content: "dt"; }
+  .classbxr dt[class]:before,
+  .classbxr * dt[class]:before {
     content: "dt." attr(class); }
-  .classbxr p:before,
-  .classbxr * p:before {
-    content: "p." attr(class); }
+  .classbxr element:before,
+  .classbxr * element:before {
+    content: "element"; }
+  .classbxr element[class]:before,
+  .classbxr * element[class]:before {
+    content: "element." attr(class); }
+  .classbxr em:before,
+  .classbxr * em:before {
+    content: "em"; }
+  .classbxr em[class]:before,
+  .classbxr * em[class]:before {
+    content: "em." attr(class); }
+  .classbxr embed:before,
+  .classbxr * embed:before {
+    content: "embed"; }
+  .classbxr embed[class]:before,
+  .classbxr * embed[class]:before {
+    content: "embed." attr(class); }
+  .classbxr fieldset:before,
+  .classbxr * fieldset:before {
+    content: "fieldset"; }
+  .classbxr fieldset[class]:before,
+  .classbxr * fieldset[class]:before {
+    content: "fieldset." attr(class); }
+  .classbxr figcaption:before,
+  .classbxr * figcaption:before {
+    content: "figcaption"; }
+  .classbxr figcaption[class]:before,
+  .classbxr * figcaption[class]:before {
+    content: "figcaption." attr(class); }
+  .classbxr figure:before,
+  .classbxr * figure:before {
+    content: "figure"; }
+  .classbxr figure[class]:before,
+  .classbxr * figure[class]:before {
+    content: "figure." attr(class); }
+  .classbxr font:before,
+  .classbxr * font:before {
+    content: "font"; }
+  .classbxr font[class]:before,
+  .classbxr * font[class]:before {
+    content: "font." attr(class); }
+  .classbxr footer:before,
+  .classbxr * footer:before {
+    content: "footer"; }
+  .classbxr footer[class]:before,
+  .classbxr * footer[class]:before {
+    content: "footer." attr(class); }
+  .classbxr form:before,
+  .classbxr * form:before {
+    content: "form"; }
+  .classbxr form[class]:before,
+  .classbxr * form[class]:before {
+    content: "form." attr(class); }
+  .classbxr frame:before,
+  .classbxr * frame:before {
+    content: "frame"; }
+  .classbxr frame[class]:before,
+  .classbxr * frame[class]:before {
+    content: "frame." attr(class); }
+  .classbxr frameset:before,
+  .classbxr * frameset:before {
+    content: "frameset"; }
+  .classbxr frameset[class]:before,
+  .classbxr * frameset[class]:before {
+    content: "frameset." attr(class); }
   .classbxr h1:before,
   .classbxr * h1:before {
+    content: "h1"; }
+  .classbxr h1[class]:before,
+  .classbxr * h1[class]:before {
     content: "h1." attr(class); }
   .classbxr h2:before,
   .classbxr * h2:before {
+    content: "h2"; }
+  .classbxr h2[class]:before,
+  .classbxr * h2[class]:before {
     content: "h2." attr(class); }
   .classbxr h3:before,
   .classbxr * h3:before {
+    content: "h3"; }
+  .classbxr h3[class]:before,
+  .classbxr * h3[class]:before {
     content: "h3." attr(class); }
   .classbxr h4:before,
   .classbxr * h4:before {
+    content: "h4"; }
+  .classbxr h4[class]:before,
+  .classbxr * h4[class]:before {
     content: "h4." attr(class); }
   .classbxr h5:before,
   .classbxr * h5:before {
+    content: "h5"; }
+  .classbxr h5[class]:before,
+  .classbxr * h5[class]:before {
     content: "h5." attr(class); }
   .classbxr h6:before,
   .classbxr * h6:before {
+    content: "h6"; }
+  .classbxr h6[class]:before,
+  .classbxr * h6[class]:before {
     content: "h6." attr(class); }
+  .classbxr head:before,
+  .classbxr * head:before {
+    content: "head"; }
+  .classbxr head[class]:before,
+  .classbxr * head[class]:before {
+    content: "head." attr(class); }
+  .classbxr header:before,
+  .classbxr * header:before {
+    content: "header"; }
+  .classbxr header[class]:before,
+  .classbxr * header[class]:before {
+    content: "header." attr(class); }
+  .classbxr hgroup:before,
+  .classbxr * hgroup:before {
+    content: "hgroup"; }
+  .classbxr hgroup[class]:before,
+  .classbxr * hgroup[class]:before {
+    content: "hgroup." attr(class); }
+  .classbxr hr:before,
+  .classbxr * hr:before {
+    content: "hr"; }
+  .classbxr hr[class]:before,
+  .classbxr * hr[class]:before {
+    content: "hr." attr(class); }
+  .classbxr html:before,
+  .classbxr * html:before {
+    content: "html"; }
+  .classbxr html[class]:before,
+  .classbxr * html[class]:before {
+    content: "html." attr(class); }
+  .classbxr i:before,
+  .classbxr * i:before {
+    content: "i"; }
+  .classbxr i[class]:before,
+  .classbxr * i[class]:before {
+    content: "i." attr(class); }
+  .classbxr iframe:before,
+  .classbxr * iframe:before {
+    content: "iframe"; }
+  .classbxr iframe[class]:before,
+  .classbxr * iframe[class]:before {
+    content: "iframe." attr(class); }
+  .classbxr image:before,
+  .classbxr * image:before {
+    content: "image"; }
+  .classbxr image[class]:before,
+  .classbxr * image[class]:before {
+    content: "image." attr(class); }
+  .classbxr img:before,
+  .classbxr * img:before {
+    content: "img"; }
+  .classbxr img[class]:before,
+  .classbxr * img[class]:before {
+    content: "img." attr(class); }
+  .classbxr input:before,
+  .classbxr * input:before {
+    content: "input"; }
+  .classbxr input[class]:before,
+  .classbxr * input[class]:before {
+    content: "input." attr(class); }
+  .classbxr ins:before,
+  .classbxr * ins:before {
+    content: "ins"; }
+  .classbxr ins[class]:before,
+  .classbxr * ins[class]:before {
+    content: "ins." attr(class); }
+  .classbxr isindex:before,
+  .classbxr * isindex:before {
+    content: "isindex"; }
+  .classbxr isindex[class]:before,
+  .classbxr * isindex[class]:before {
+    content: "isindex." attr(class); }
+  .classbxr kbd:before,
+  .classbxr * kbd:before {
+    content: "kbd"; }
+  .classbxr kbd[class]:before,
+  .classbxr * kbd[class]:before {
+    content: "kbd." attr(class); }
+  .classbxr keygen:before,
+  .classbxr * keygen:before {
+    content: "keygen"; }
+  .classbxr keygen[class]:before,
+  .classbxr * keygen[class]:before {
+    content: "keygen." attr(class); }
+  .classbxr label:before,
+  .classbxr * label:before {
+    content: "label"; }
+  .classbxr label[class]:before,
+  .classbxr * label[class]:before {
+    content: "label." attr(class); }
+  .classbxr legend:before,
+  .classbxr * legend:before {
+    content: "legend"; }
+  .classbxr legend[class]:before,
+  .classbxr * legend[class]:before {
+    content: "legend." attr(class); }
+  .classbxr li:before,
+  .classbxr * li:before {
+    content: "li"; }
+  .classbxr li[class]:before,
+  .classbxr * li[class]:before {
+    content: "li." attr(class); }
+  .classbxr link:before,
+  .classbxr * link:before {
+    content: "link"; }
+  .classbxr link[class]:before,
+  .classbxr * link[class]:before {
+    content: "link." attr(class); }
+  .classbxr listing:before,
+  .classbxr * listing:before {
+    content: "listing"; }
+  .classbxr listing[class]:before,
+  .classbxr * listing[class]:before {
+    content: "listing." attr(class); }
+  .classbxr main:before,
+  .classbxr * main:before {
+    content: "main"; }
+  .classbxr main[class]:before,
+  .classbxr * main[class]:before {
+    content: "main." attr(class); }
+  .classbxr map:before,
+  .classbxr * map:before {
+    content: "map"; }
+  .classbxr map[class]:before,
+  .classbxr * map[class]:before {
+    content: "map." attr(class); }
+  .classbxr mark:before,
+  .classbxr * mark:before {
+    content: "mark"; }
+  .classbxr mark[class]:before,
+  .classbxr * mark[class]:before {
+    content: "mark." attr(class); }
+  .classbxr marquee:before,
+  .classbxr * marquee:before {
+    content: "marquee"; }
+  .classbxr marquee[class]:before,
+  .classbxr * marquee[class]:before {
+    content: "marquee." attr(class); }
+  .classbxr menu:before,
+  .classbxr * menu:before {
+    content: "menu"; }
+  .classbxr menu[class]:before,
+  .classbxr * menu[class]:before {
+    content: "menu." attr(class); }
+  .classbxr menuitem:before,
+  .classbxr * menuitem:before {
+    content: "menuitem"; }
+  .classbxr menuitem[class]:before,
+  .classbxr * menuitem[class]:before {
+    content: "menuitem." attr(class); }
+  .classbxr meta:before,
+  .classbxr * meta:before {
+    content: "meta"; }
+  .classbxr meta[class]:before,
+  .classbxr * meta[class]:before {
+    content: "meta." attr(class); }
+  .classbxr meter:before,
+  .classbxr * meter:before {
+    content: "meter"; }
+  .classbxr meter[class]:before,
+  .classbxr * meter[class]:before {
+    content: "meter." attr(class); }
+  .classbxr multicol:before,
+  .classbxr * multicol:before {
+    content: "multicol"; }
+  .classbxr multicol[class]:before,
+  .classbxr * multicol[class]:before {
+    content: "multicol." attr(class); }
+  .classbxr nav:before,
+  .classbxr * nav:before {
+    content: "nav"; }
+  .classbxr nav[class]:before,
+  .classbxr * nav[class]:before {
+    content: "nav." attr(class); }
+  .classbxr nobr:before,
+  .classbxr * nobr:before {
+    content: "nobr"; }
+  .classbxr nobr[class]:before,
+  .classbxr * nobr[class]:before {
+    content: "nobr." attr(class); }
+  .classbxr noembed:before,
+  .classbxr * noembed:before {
+    content: "noembed"; }
+  .classbxr noembed[class]:before,
+  .classbxr * noembed[class]:before {
+    content: "noembed." attr(class); }
+  .classbxr noframes:before,
+  .classbxr * noframes:before {
+    content: "noframes"; }
+  .classbxr noframes[class]:before,
+  .classbxr * noframes[class]:before {
+    content: "noframes." attr(class); }
+  .classbxr noscript:before,
+  .classbxr * noscript:before {
+    content: "noscript"; }
+  .classbxr noscript[class]:before,
+  .classbxr * noscript[class]:before {
+    content: "noscript." attr(class); }
+  .classbxr object:before,
+  .classbxr * object:before {
+    content: "object"; }
+  .classbxr object[class]:before,
+  .classbxr * object[class]:before {
+    content: "object." attr(class); }
+  .classbxr ol:before,
+  .classbxr * ol:before {
+    content: "ol"; }
+  .classbxr ol[class]:before,
+  .classbxr * ol[class]:before {
+    content: "ol." attr(class); }
+  .classbxr optgroup:before,
+  .classbxr * optgroup:before {
+    content: "optgroup"; }
+  .classbxr optgroup[class]:before,
+  .classbxr * optgroup[class]:before {
+    content: "optgroup." attr(class); }
+  .classbxr option:before,
+  .classbxr * option:before {
+    content: "option"; }
+  .classbxr option[class]:before,
+  .classbxr * option[class]:before {
+    content: "option." attr(class); }
+  .classbxr output:before,
+  .classbxr * output:before {
+    content: "output"; }
+  .classbxr output[class]:before,
+  .classbxr * output[class]:before {
+    content: "output." attr(class); }
+  .classbxr p:before,
+  .classbxr * p:before {
+    content: "p"; }
+  .classbxr p[class]:before,
+  .classbxr * p[class]:before {
+    content: "p." attr(class); }
+  .classbxr param:before,
+  .classbxr * param:before {
+    content: "param"; }
+  .classbxr param[class]:before,
+  .classbxr * param[class]:before {
+    content: "param." attr(class); }
+  .classbxr picture:before,
+  .classbxr * picture:before {
+    content: "picture"; }
+  .classbxr picture[class]:before,
+  .classbxr * picture[class]:before {
+    content: "picture." attr(class); }
+  .classbxr plaintext:before,
+  .classbxr * plaintext:before {
+    content: "plaintext"; }
+  .classbxr plaintext[class]:before,
+  .classbxr * plaintext[class]:before {
+    content: "plaintext." attr(class); }
+  .classbxr pre:before,
+  .classbxr * pre:before {
+    content: "pre"; }
+  .classbxr pre[class]:before,
+  .classbxr * pre[class]:before {
+    content: "pre." attr(class); }
+  .classbxr progress:before,
+  .classbxr * progress:before {
+    content: "progress"; }
+  .classbxr progress[class]:before,
+  .classbxr * progress[class]:before {
+    content: "progress." attr(class); }
+  .classbxr q:before,
+  .classbxr * q:before {
+    content: "q"; }
+  .classbxr q[class]:before,
+  .classbxr * q[class]:before {
+    content: "q." attr(class); }
+  .classbxr rp:before,
+  .classbxr * rp:before {
+    content: "rp"; }
+  .classbxr rp[class]:before,
+  .classbxr * rp[class]:before {
+    content: "rp." attr(class); }
+  .classbxr rt:before,
+  .classbxr * rt:before {
+    content: "rt"; }
+  .classbxr rt[class]:before,
+  .classbxr * rt[class]:before {
+    content: "rt." attr(class); }
+  .classbxr rtc:before,
+  .classbxr * rtc:before {
+    content: "rtc"; }
+  .classbxr rtc[class]:before,
+  .classbxr * rtc[class]:before {
+    content: "rtc." attr(class); }
+  .classbxr ruby:before,
+  .classbxr * ruby:before {
+    content: "ruby"; }
+  .classbxr ruby[class]:before,
+  .classbxr * ruby[class]:before {
+    content: "ruby." attr(class); }
+  .classbxr s:before,
+  .classbxr * s:before {
+    content: "s"; }
+  .classbxr s[class]:before,
+  .classbxr * s[class]:before {
+    content: "s." attr(class); }
+  .classbxr samp:before,
+  .classbxr * samp:before {
+    content: "samp"; }
+  .classbxr samp[class]:before,
+  .classbxr * samp[class]:before {
+    content: "samp." attr(class); }
+  .classbxr script:before,
+  .classbxr * script:before {
+    content: "script"; }
+  .classbxr script[class]:before,
+  .classbxr * script[class]:before {
+    content: "script." attr(class); }
+  .classbxr section:before,
+  .classbxr * section:before {
+    content: "section"; }
+  .classbxr section[class]:before,
+  .classbxr * section[class]:before {
+    content: "section." attr(class); }
+  .classbxr select:before,
+  .classbxr * select:before {
+    content: "select"; }
+  .classbxr select[class]:before,
+  .classbxr * select[class]:before {
+    content: "select." attr(class); }
+  .classbxr shadow:before,
+  .classbxr * shadow:before {
+    content: "shadow"; }
+  .classbxr shadow[class]:before,
+  .classbxr * shadow[class]:before {
+    content: "shadow." attr(class); }
+  .classbxr slot:before,
+  .classbxr * slot:before {
+    content: "slot"; }
+  .classbxr slot[class]:before,
+  .classbxr * slot[class]:before {
+    content: "slot." attr(class); }
+  .classbxr small:before,
+  .classbxr * small:before {
+    content: "small"; }
+  .classbxr small[class]:before,
+  .classbxr * small[class]:before {
+    content: "small." attr(class); }
+  .classbxr source:before,
+  .classbxr * source:before {
+    content: "source"; }
+  .classbxr source[class]:before,
+  .classbxr * source[class]:before {
+    content: "source." attr(class); }
+  .classbxr spacer:before,
+  .classbxr * spacer:before {
+    content: "spacer"; }
+  .classbxr spacer[class]:before,
+  .classbxr * spacer[class]:before {
+    content: "spacer." attr(class); }
+  .classbxr span:before,
+  .classbxr * span:before {
+    content: "span"; }
+  .classbxr span[class]:before,
+  .classbxr * span[class]:before {
+    content: "span." attr(class); }
+  .classbxr strike:before,
+  .classbxr * strike:before {
+    content: "strike"; }
+  .classbxr strike[class]:before,
+  .classbxr * strike[class]:before {
+    content: "strike." attr(class); }
+  .classbxr strong:before,
+  .classbxr * strong:before {
+    content: "strong"; }
+  .classbxr strong[class]:before,
+  .classbxr * strong[class]:before {
+    content: "strong." attr(class); }
+  .classbxr style:before,
+  .classbxr * style:before {
+    content: "style"; }
+  .classbxr style[class]:before,
+  .classbxr * style[class]:before {
+    content: "style." attr(class); }
+  .classbxr sub:before,
+  .classbxr * sub:before {
+    content: "sub"; }
+  .classbxr sub[class]:before,
+  .classbxr * sub[class]:before {
+    content: "sub." attr(class); }
+  .classbxr summary:before,
+  .classbxr * summary:before {
+    content: "summary"; }
+  .classbxr summary[class]:before,
+  .classbxr * summary[class]:before {
+    content: "summary." attr(class); }
+  .classbxr sup:before,
+  .classbxr * sup:before {
+    content: "sup"; }
+  .classbxr sup[class]:before,
+  .classbxr * sup[class]:before {
+    content: "sup." attr(class); }
+  .classbxr table:before,
+  .classbxr * table:before {
+    content: "table"; }
+  .classbxr table[class]:before,
+  .classbxr * table[class]:before {
+    content: "table." attr(class); }
+  .classbxr tbody:before,
+  .classbxr * tbody:before {
+    content: "tbody"; }
+  .classbxr tbody[class]:before,
+  .classbxr * tbody[class]:before {
+    content: "tbody." attr(class); }
+  .classbxr td:before,
+  .classbxr * td:before {
+    content: "td"; }
+  .classbxr td[class]:before,
+  .classbxr * td[class]:before {
+    content: "td." attr(class); }
+  .classbxr template:before,
+  .classbxr * template:before {
+    content: "template"; }
+  .classbxr template[class]:before,
+  .classbxr * template[class]:before {
+    content: "template." attr(class); }
+  .classbxr textarea:before,
+  .classbxr * textarea:before {
+    content: "textarea"; }
+  .classbxr textarea[class]:before,
+  .classbxr * textarea[class]:before {
+    content: "textarea." attr(class); }
+  .classbxr tfoot:before,
+  .classbxr * tfoot:before {
+    content: "tfoot"; }
+  .classbxr tfoot[class]:before,
+  .classbxr * tfoot[class]:before {
+    content: "tfoot." attr(class); }
+  .classbxr th:before,
+  .classbxr * th:before {
+    content: "th"; }
+  .classbxr th[class]:before,
+  .classbxr * th[class]:before {
+    content: "th." attr(class); }
+  .classbxr thead:before,
+  .classbxr * thead:before {
+    content: "thead"; }
+  .classbxr thead[class]:before,
+  .classbxr * thead[class]:before {
+    content: "thead." attr(class); }
+  .classbxr time:before,
+  .classbxr * time:before {
+    content: "time"; }
+  .classbxr time[class]:before,
+  .classbxr * time[class]:before {
+    content: "time." attr(class); }
+  .classbxr title:before,
+  .classbxr * title:before {
+    content: "title"; }
+  .classbxr title[class]:before,
+  .classbxr * title[class]:before {
+    content: "title." attr(class); }
+  .classbxr tr:before,
+  .classbxr * tr:before {
+    content: "tr"; }
+  .classbxr tr[class]:before,
+  .classbxr * tr[class]:before {
+    content: "tr." attr(class); }
+  .classbxr track:before,
+  .classbxr * track:before {
+    content: "track"; }
+  .classbxr track[class]:before,
+  .classbxr * track[class]:before {
+    content: "track." attr(class); }
+  .classbxr tt:before,
+  .classbxr * tt:before {
+    content: "tt"; }
+  .classbxr tt[class]:before,
+  .classbxr * tt[class]:before {
+    content: "tt." attr(class); }
+  .classbxr u:before,
+  .classbxr * u:before {
+    content: "u"; }
+  .classbxr u[class]:before,
+  .classbxr * u[class]:before {
+    content: "u." attr(class); }
+  .classbxr ul:before,
+  .classbxr * ul:before {
+    content: "ul"; }
+  .classbxr ul[class]:before,
+  .classbxr * ul[class]:before {
+    content: "ul." attr(class); }
+  .classbxr var:before,
+  .classbxr * var:before {
+    content: "var"; }
+  .classbxr var[class]:before,
+  .classbxr * var[class]:before {
+    content: "var." attr(class); }
+  .classbxr video:before,
+  .classbxr * video:before {
+    content: "video"; }
+  .classbxr video[class]:before,
+  .classbxr * video[class]:before {
+    content: "video." attr(class); }
+  .classbxr wbr:before,
+  .classbxr * wbr:before {
+    content: "wbr"; }
+  .classbxr wbr[class]:before,
+  .classbxr * wbr[class]:before {
+    content: "wbr." attr(class); }
