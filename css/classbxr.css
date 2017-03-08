@@ -5,8 +5,8 @@
   padding: .5em .25em .25em .25em !important;
   margin: .5em .25em .25em .25em !important;
   position: relative; }
-  .classbxr:before,
-  .classbxr *:before {
+  .classbxr[class]:before,
+  .classbxr *[class]:before {
     content: "." attr(class);
     font-size: xx-small;
     background-color: white;
