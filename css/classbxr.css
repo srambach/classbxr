@@ -15,18 +15,18 @@
     top: -1.5ex;
     white-space: nowrap;
     font-family: sans-serif; }
-  .classbxr div,
-  .classbxr * div {
+  .classbxr *,
+  .classbxr * * {
     border-color: pink !important; }
-  .classbxr div div,
-  .classbxr * div div {
-    border-color: purple !important; }
-  .classbxr div div div,
-  .classbxr * div div div {
-    border-color: green !important; }
-  .classbxr div div div div,
-  .classbxr * div div div div {
-    border-color: orange !important; }
+    .classbxr * *,
+    .classbxr * * * {
+      border-color: purple !important; }
+      .classbxr * * *,
+      .classbxr * * * * {
+        border-color: green !important; }
+        .classbxr * * * *,
+        .classbxr * * * * * {
+          border-color: orange !important; }
   .classbxr a:before,
   .classbxr * a:before {
     content: "a"; }

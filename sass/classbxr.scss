@@ -17,19 +17,18 @@
     font-family: sans-serif;
   }
   // Get nested elements down to a reasonable level
-  div {
+  * {
     border-color: pink !important;
+    * {
+      border-color: purple !important;
+      * {
+        border-color: green !important;
+        * {
+          border-color: orange !important;
+        }
+      }
+    }
   }
-  div div {
-    border-color: purple !important;
-  }
-  div div div {
-    border-color: green !important;
-  }
-  div div div div {
-    border-color: orange !important;
-  }
-
   // Add the element name for common elements
   @each $element in a,
   abbr,
