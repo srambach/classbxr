@@ -31,46 +31,10 @@
   }
 
   // Add the element name for common elements
-  div:before {
-    content: 'div.' attr(class);
+  @each $element in div, span, ul, ol, li, dl, dd, dt, p, h1, h2, h3, h4, h5, h6 {
+   #{$element}:before {
+     content: '#{$element}.' attr(class);
+   }
   }
-  span:before {
-    content: 'span.' attr(class);
-  }
-  ul:before {
-    content: 'ul.' attr(class);
-  }
-  ol:before {
-    content: 'ol.' attr(class);
-  }
-  li:before {
-    content: 'li.' attr(class);
-  }
-  dl:before {
-    content: 'dl.' attr(class);
-  }
-  dd:before {
-    content: 'dd.' attr(class);
-  }
-  dt:before {
-    content: 'dt.' attr(class);
-  }
-  h1:before {
-    content: 'h1.' attr(class);
-  }
-  h2:before {
-    content: 'h2.' attr(class);
-  }
-  h3:before {
-    content: 'h3.' attr(class);
-  }
-  h4:before {
-    content: 'h4.' attr(class);
-  }
-  h5:before {
-    content: 'h5.' attr(class);
-  }
-  h6:before {
-    content: 'h6.' attr(class);
-  }
+
 }

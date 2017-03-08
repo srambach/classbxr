@@ -1,19 +1,14 @@
-/**
- * Created by srambach on 3/3/17.
- */
-var gulp = require('gulp'),
-    less = require('gulp-less'),
-    plumber = require('gulp-plumber'),
-    browserSync = require('browser-sync'),
-    reload = browserSync.reload;
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+var browserSync = require('browser-sync');
+var reload = browserSync.reload;
 
-
-// Compiles less on to /css
-gulp.task('less', function () {
-    gulp.src('less/**/*.less')
-        .pipe(plumber())
-        .pipe(less())
-        .pipe(gulp.dest('css'))
+gulp.task('styles', function() {
+      gulp.src('sass/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(gulp.dest('./css/'))
         .pipe(reload({stream:true}));
 });
 
@@ -31,11 +26,11 @@ gulp.task('bs-reload', function () {
     browserSync.reload();
 });
 
-// watch for changes on files
-gulp.task('watch', function(){
-    gulp.watch('less/*.less', ['less']);
+//Watch task
+gulp.task('watch',function() {
+    gulp.watch('sass/**/*.scss',['styles']);
     gulp.watch("*.html", ['bs-reload']);
 });
 
 // deploys
-gulp.task('default',  ['less','browser-sync','watch']);
+gulp.task('default',  ['styles','browser-sync','watch']);
