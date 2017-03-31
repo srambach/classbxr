@@ -6,6 +6,11 @@
   padding: .5em .25em .25em .25em !important;
   margin: .5em .25em .25em .25em !important;
   position: relative;
+  &:hover:before {
+    background: yellow;
+    color: black;
+    font-size: x-small;
+  }
   &:before {
     content: '.' attr(class);
     font-size: xx-small;
