@@ -21,7 +21,9 @@ It's easy, just load classbxr CDN on your HTML `<head>` and add the `.classbxr` 
 
 ### 2. Add classbxr class to the body
 
+```
 <body class="classbxr">
+```
 
 ### 3. Enjoy!
 
