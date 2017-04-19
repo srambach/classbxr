@@ -9,9 +9,13 @@
   &:hover:before {
     background: yellow;
     color: black;
-    font-size: x-small;
+    transform: scale3d(1.2, 1.2, 1) rotateX(360deg);
+    box-shadow: 0 .1em .2em rgba(0,0,0,.3);
+    // font-size: x-small;
   }
   &:before {
+    transition: .3s all ease-in-out;
+    transform-style: preserve-3d;
     content: '.' attr(class);
     font-size: xx-small;
     background-color: white;
@@ -19,7 +23,7 @@
     position: absolute;
     top: -1.5ex;
     white-space: nowrap;
-    font-family: sans-serif;
+    font-family: monospace;
   }
   // Get nested elements down to a reasonable level
   * {
