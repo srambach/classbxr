@@ -6,12 +6,18 @@
   padding: .5em .25em .25em .25em !important;
   margin: .5em .25em .25em .25em !important;
   position: relative;
-  &:hover:before {
-    background: yellow;
-    color: black;
-    font-size: x-small;
+  &:hover {
+    // border-sans-serif: 22px !important;
+    &:before {
+      background: yellow;
+      color: black;
+      transform: scale3d(1.2, 1.2, 1) rotateX(360deg);
+      box-shadow: 0 .1em .2em rgba(0,0,0,.3);
+    }
   }
   &:before {
+    transition: .3s all ease-in-out;
+    transform-style: preserve-3d;
     content: '.' attr(class);
     font-size: xx-small;
     background-color: white;
